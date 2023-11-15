@@ -10,7 +10,7 @@
         "streetsidesoftware.code-spell-checker",
         "ryanluker.vscode-coverage-gutters"
       ],
-      "openFiles": ["README.md", "src/demo/HelloWorld.java"]
+      "openFiles": ["src/demo/HelloWorld.java", "README.md"]
     },
     "codespaces": {
       "extensions": [
@@ -21,7 +21,7 @@
         "streetsidesoftware.code-spell-checker",
         "ryanluker.vscode-coverage-gutters"
       ],
-      "openFiles": ["README.md", "src/demo/HelloWorld.java"]
+      "openFiles": ["src/demo/HelloWorld.java", "README.md"]
     }
   }
 }
