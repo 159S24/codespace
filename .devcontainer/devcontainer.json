@@ -1,18 +1,6 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
-	"name": "Java",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
-
-	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
-			"installMaven": "false",
-			"installGradle": "false"
-		}
-	},
-	"customizations": {
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
     "vscode": {
       "extensions": [
         "redhat.java",
@@ -25,7 +13,7 @@
       "openFiles": ["README.md", "src/demo/HelloWorld.java"]
     },
     "codespaces": {
-			"extensions": [
+      "extensions": [
         "redhat.java",
         "vscjava.vscode-java-debug",
         "vscjava.vscode-java-test",
@@ -33,22 +21,7 @@
         "streetsidesoftware.code-spell-checker",
         "ryanluker.vscode-coverage-gutters"
       ],
-      "openFiles": [
-        "README.md",
-        "src/demo/HelloWorld.java"
-      ]
+      "openFiles": ["README.md", "src/demo/HelloWorld.java"]
     }
   }
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
 }
